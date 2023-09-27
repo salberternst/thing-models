@@ -13,12 +13,14 @@
         "type": "object",
         "properties": {
           "power": {
+            "type": "object",  
             "value": {
               "type": "number"
             },
             "ts": {
               "type": "integer"
-            }
+            },
+            "required": [ "value", "ts" ]
           }
         }
       }
