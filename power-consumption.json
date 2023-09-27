@@ -7,57 +7,11 @@
     "version": {
       "model": "0.0.1"
     },
-    "securityDefinitions": {
-      "bearer_sc": {
-        "scheme": "bearer"
-      }
-    },
-    "security": "bearer_sc",
     "tm:optional": [],
     "properties": {
       "power": {
         "type": "object",
-         "uriVariables": {
-          "keys": {
-            "type": "string",
-            "const": "power"
-          },
-          "useStrictDataTypes": {
-            "type": "string",
-            "const": true
-          }
-        },
         "properties": {
-          "power": {
-            "value": {
-              "type": "number"
-            },
-            "ts": {
-              "type": "integer"
-            }
-          }
-        }
-      },
-      "power_history": {
-        "type": "array",
-        "uriVariables": {
-          "keys": {
-            "type": "string",
-            "const": "power"
-          },
-          "useStrictDataTypes": {
-            "type": "string",
-            "const": true
-          },
-          "startTs": {
-            "type": "integer"
-          },
-          "endTs": {
-            "type": "integer"
-          }
-        },
-        "items": {
-          "type": "object",
           "power": {
             "value": {
               "type": "number"
@@ -69,4 +23,4 @@
         }
       }
     }
-  }
+}
