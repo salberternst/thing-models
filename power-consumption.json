@@ -17,9 +17,9 @@
           },
           "ts": {
             "type": "integer"
-          },
-          "required": [ "power" ]
-        }
+          }
+        },
+        "required": [ "power" ]
       }
     }
 }
