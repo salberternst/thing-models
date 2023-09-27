@@ -9,7 +9,7 @@
     },
     "tm:optional": [],
     "properties": {
-      "power": {
+      "power_get": {
         "type": "object",
         "properties": {
           "power": {
