@@ -13,7 +13,7 @@
         "type": "object",
         "properties": {
           "power": {
-            "type": "number",  
+            "type": "number"
           },
           "ts": {
             "type": "integer"
