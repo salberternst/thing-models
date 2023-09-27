@@ -13,17 +13,12 @@
         "type": "object",
         "properties": {
           "power": {
-            "type": "object",  
-            "properties": {  
-                "value": {
-                  "type": "number"
-                },
-                "ts": {
-                  "type": "integer"
-                }
-            },
-            "required": [ "value", "ts" ]
-          }
+            "type": "number",  
+          },
+          "ts": {
+            "type": "integer"
+          },
+          "required": [ "power" ]
         }
       }
     }
