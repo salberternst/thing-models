@@ -3,16 +3,16 @@
       "https://www.w3.org/2022/wot/td/v1.1"
     ],
     "@type": "tm:ThingModel",
-    "title": "Power Sensor",
+    "title": "Timestamp Sensor",
     "version": {
       "model": "0.0.1"
     },
     "tm:optional": [],
     "properties": {
-      "power": {
+      "timestamp": {
         "type": "object",
         "properties": {
-          "power": {
+          "timestamp": {
             "type": "string"
           },
           "ts": {

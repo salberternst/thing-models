@@ -9,10 +9,10 @@
     },
     "tm:optional": [],
     "properties": {
-      "power": {
+      "outlet": {
         "type": "object",
         "properties": {
-          "power": {
+          "outlet": {
             "type": "number"
           },
           "ts": {

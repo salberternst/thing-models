@@ -9,10 +9,10 @@
     },
     "tm:optional": [],
     "properties": {
-      "power": {
+      "motion": {
         "type": "object",
         "properties": {
-          "power": {
+          "motion": {
             "type": "string"
           },
           "ts": {

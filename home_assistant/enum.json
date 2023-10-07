@@ -9,10 +9,10 @@
     },
     "tm:optional": [],
     "properties": {
-      "power": {
+      "enum": {
         "type": "object",
         "properties": {
-          "power": {
+          "enum": {
             "type": "string"
           },
           "ts": {

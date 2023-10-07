@@ -12,7 +12,7 @@
       "power": {
         "type": "object",
         "properties": {
-          "power": {
+          "garage": {
             "type": "string"
           },
           "ts": {

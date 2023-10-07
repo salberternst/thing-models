@@ -9,10 +9,10 @@
     },
     "tm:optional": [],
     "properties": {
-      "power": {
+      "data_rate": {
         "type": "object",
         "properties": {
-          "power": {
+          "data_rate": {
             "type": "number"
           },
           "ts": {

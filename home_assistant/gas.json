@@ -9,10 +9,10 @@
     },
     "tm:optional": [],
     "properties": {
-      "power": {
+      "gas": {
         "type": "object",
         "properties": {
-          "power": {
+          "gas": {
             "type": "number"
           },
           "ts": {

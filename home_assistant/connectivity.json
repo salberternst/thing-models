@@ -9,10 +9,10 @@
     },
     "tm:optional": [],
     "properties": {
-      "power": {
+      "connectivity": {
         "type": "object",
         "properties": {
-          "power": {
+          "connectivity": {
             "type": "string"
           },
           "ts": {
