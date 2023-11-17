@@ -18,8 +18,12 @@
       "power": {
         "@type": "iot:TotalActivePower",
         "type": "object",
+        "iot:providesActivePowerData": {
+            "@id": "properties/power"
+        },
         "properties": {
           "power": {
+            "@id": "properties/power",
             "@type": "iot:ActivePowerData",
             "type": "number"
           },
