@@ -9,7 +9,7 @@
         "tm:ThingModel",
         "iot:PowerMonitoring"
     ],
-    "title": "Power Sensor",
+    "title": "Power Sensor Test",
     "version": {
       "model": "0.0.1"
     },
