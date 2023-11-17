@@ -16,9 +16,11 @@
     "tm:optional": [],
     "properties": {
       "power": {
+        "@type": "iot:TotalActivePower",
         "type": "object",
         "properties": {
           "power": {
+            "@type": "iot:ActivePowerData",
             "type": "number"
           },
           "ts": {
