@@ -1,8 +1,14 @@
 {
     "@context": [
-      "https://www.w3.org/2022/wot/td/v1.1"
+      "https://www.w3.org/2022/wot/td/v1.1",
+      {
+          "iot": "http://iotschema.org/"
+      }
     ],
-    "@type": "tm:ThingModel",
+    "@type": [ 
+        "tm:ThingModel",
+        "iot:PowerMonitoring"
+    ],
     "title": "Power Sensor",
     "version": {
       "model": "0.0.1"
@@ -10,9 +16,11 @@
     "tm:optional": [],
     "properties": {
       "power": {
+        "@type": "iot:TotalActivePower",
         "type": "object",
         "properties": {
           "power": {
+            "@type": "iot:ActivePowerData",
             "type": "number"
           },
           "ts": {

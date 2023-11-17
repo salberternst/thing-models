@@ -1,6 +1,9 @@
 {
     "@context": [
-      "https://www.w3.org/2022/wot/td/v1.1"
+      "https://www.w3.org/2022/wot/td/v1.1",
+      {
+          "iot": "http://iotschema.org/"
+      }
     ],
     "@type": "tm:ThingModel",
     "title": "Gas Sensor",
