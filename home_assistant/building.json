@@ -1,0 +1,27 @@
+{
+    "@context": [
+      "https://www.w3.org/2022/wot/td/v1.1",
+      {
+          "iot": "http://iotschema.org/"
+      }
+    ],
+    "@type": "tm:ThingModel",
+    "title": "Building",
+    "version": {
+      "model": "0.0.1"
+    },
+    "tm:optional": [],
+    "properties": {
+      "Primärenergieeffizienzklasse (EA)": {
+        "type": "object",
+        "properties": {
+          "Primärenergieeffizienzklasse (EA)": {
+            "type": "string"
+          },
+          "ts": {
+            "type": "integer"
+          }
+        }
+      }
+    }
+}
