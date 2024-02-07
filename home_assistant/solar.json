@@ -59,7 +59,7 @@
             "type": "object",
             "properties": {
                 "device_name": {
-                    "type": "number"
+                    "type": "string"
                 },
                 "ts": {
                     "type": "integer"
@@ -70,7 +70,7 @@
             "type": "object",
             "properties": {
                 "parent_device": {
-                    "type": "number"
+                    "type": "string"
                 },
                 "ts": {
                     "type": "integer"
@@ -81,7 +81,7 @@
             "type": "object",
             "properties": {
                 "parent_device_SN": {
-                    "type": "number"
+                    "type": "string"
                 },
                 "ts": {
                     "type": "integer"
@@ -92,7 +92,7 @@
             "type": "object",
             "properties": {
                 "SN": {
-                    "type": "number"
+                    "type": "string"
                 },
                 "ts": {
                     "type": "integer"
