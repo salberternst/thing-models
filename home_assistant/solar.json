@@ -1,0 +1,103 @@
+{
+    "@context": [
+        "https://www.w3.org/2022/wot/td/v1.1"
+    ],
+    "@type": [
+        "tm:ThingModel"
+    ],
+    "title": "Solarmodul",
+    "version": {
+        "model": "0.0.1"
+    },
+    "tm:optional": [],
+    "properties": {
+        "daily_production": {
+            "type": "object",
+            "properties": {
+                "daily_production": {
+                    "type": "number"
+                },
+                "ts": {
+                    "type": "integer"
+                }
+            }
+        },
+        "DC_current": {
+            "type": "object",
+            "properties": {
+                "DC_current": {
+                    "type": "number"
+                },
+                "ts": {
+                    "type": "integer"
+                }
+            }
+        },
+        "DC_power": {
+            "type": "object",
+            "properties": {
+                "DC_power": {
+                    "type": "number"
+                },
+                "ts": {
+                    "type": "integer"
+                }
+            }
+        },
+        "DC_voltage": {
+            "type": "object",
+            "properties": {
+                "DC_voltage": {
+                    "type": "number"
+                },
+                "ts": {
+                    "type": "integer"
+                }
+            }
+        },
+        "device_name": {
+            "type": "object",
+            "properties": {
+                "device_name": {
+                    "type": "number"
+                },
+                "ts": {
+                    "type": "integer"
+                }
+            }
+        },
+        "parent_device": {
+            "type": "object",
+            "properties": {
+                "parent_device": {
+                    "type": "number"
+                },
+                "ts": {
+                    "type": "integer"
+                }
+            }
+        },
+        "parent_device_SN": {
+            "type": "object",
+            "properties": {
+                "parent_device_SN": {
+                    "type": "number"
+                },
+                "ts": {
+                    "type": "integer"
+                }
+            }
+        },
+        "SN": {
+            "type": "object",
+            "properties": {
+                "SN": {
+                    "type": "number"
+                },
+                "ts": {
+                    "type": "integer"
+                }
+            }
+        }
+    }
+}
