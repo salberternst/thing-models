@@ -11,7 +11,7 @@
     },
     "tm:optional": [],
     "properties": {
-        "Taegliche_Produktion(kWh)": {
+        "Taegliche_ProduktionkWh": {
             "type": "object",
             "properties": {
                 "daily_production": {
@@ -22,7 +22,7 @@
                 }
             }
         },
-        "DC_Strom(A)": {
+        "DC_StromA": {
             "type": "object",
             "properties": {
                 "DC_current": {
@@ -33,7 +33,7 @@
                 }
             }
         },
-        "DC_Eingangsleistung_gesamt(W)": {
+        "DC_Eingangsleistung_gesamtW": {
             "type": "object",
             "properties": {
                 "DC_power": {
@@ -44,7 +44,7 @@
                 }
             }
         },
-        "DC_Spannung(V)": {
+        "DC_SpannungV": {
             "type": "object",
             "properties": {
                 "DC_voltage": {
