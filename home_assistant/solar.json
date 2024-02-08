@@ -11,7 +11,7 @@
     },
     "tm:optional": [],
     "properties": {
-        "Taegliche_ProduktionkWh": {
+        "daily_production": {
             "type": "object",
             "properties": {
                 "daily_production": {
@@ -22,7 +22,7 @@
                 }
             }
         },
-        "DC_StromA": {
+        "DC_current": {
             "type": "object",
             "properties": {
                 "DC_current": {
@@ -33,7 +33,7 @@
                 }
             }
         },
-        "DC_Eingangsleistung_gesamtW": {
+        "DC_power": {
             "type": "object",
             "properties": {
                 "DC_power": {
@@ -44,7 +44,7 @@
                 }
             }
         },
-        "DC_SpannungV": {
+        "DC_voltage": {
             "type": "object",
             "properties": {
                 "DC_voltage": {
@@ -55,7 +55,7 @@
                 }
             }
         },
-        "Name_des_Geraets": {
+        "device_name": {
             "type": "object",
             "properties": {
                 "device_name": {
@@ -66,7 +66,7 @@
                 }
             }
         },
-        "Elterngeraet": {
+        "parent_device": {
             "type": "object",
             "properties": {
                 "parent_device": {
@@ -77,7 +77,7 @@
                 }
             }
         },
-        "Geraete_SN": {
+        "parent_device_SN": {
             "type": "object",
             "properties": {
                 "parent_device_SN": {
