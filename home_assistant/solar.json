@@ -11,10 +11,10 @@
     },
     "tm:optional": [],
     "properties": {
-        "daily_production": {
+        "Tägliche Produktion(kWh)": {
             "type": "object",
             "properties": {
-                "daily_production": {
+                "Tägliche Produktion(kWh)": {
                     "type": "number"
                 },
                 "ts": {
@@ -22,10 +22,10 @@
                 }
             }
         },
-        "DC_current": {
+        "DC-Strom(A)": {
             "type": "object",
             "properties": {
-                "DC_current": {
+                "DC-Strom(A)": {
                     "type": "number"
                 },
                 "ts": {
@@ -33,10 +33,10 @@
                 }
             }
         },
-        "DC_power": {
+        "DC-Eingangsleistung gesamt(W)": {
             "type": "object",
             "properties": {
-                "DC_power": {
+                "DC-Eingangsleistung gesamt(W)": {
                     "type": "number"
                 },
                 "ts": {
@@ -44,10 +44,10 @@
                 }
             }
         },
-        "DC_voltage": {
+        "DC-Spannung(V)": {
             "type": "object",
             "properties": {
-                "DC_voltage": {
+                "DC-Spannung(V)": {
                     "type": "number"
                 },
                 "ts": {
@@ -55,10 +55,10 @@
                 }
             }
         },
-        "device_name": {
+        "Name des Geräts": {
             "type": "object",
             "properties": {
-                "device_name": {
+                "Name des Geräts": {
                     "type": "string"
                 },
                 "ts": {
@@ -66,10 +66,10 @@
                 }
             }
         },
-        "parent_device": {
+        "Elterngerät": {
             "type": "object",
             "properties": {
-                "parent_device": {
+                "Elterngerät": {
                     "type": "string"
                 },
                 "ts": {
@@ -77,10 +77,10 @@
                 }
             }
         },
-        "parent_device_SN": {
+        "Geräte-SN": {
             "type": "object",
             "properties": {
-                "parent_device_SN": {
+                "Geräte-SN": {
                     "type": "string"
                 },
                 "ts": {
