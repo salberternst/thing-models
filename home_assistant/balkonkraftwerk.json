@@ -1,0 +1,133 @@
+{
+    "@context": [
+        "https://www.w3.org/2022/wot/td/v1.1"
+    ],
+    "@type": [
+        "tm:ThingModel"
+    ],
+    "title": "Balkonkraftwerk",
+    "version": {
+        "model": "0.0.1"
+    },
+    "tm:optional": [],
+    "properties": {
+        "name_der_anlage": {
+            "type": "object",
+            "properties": {
+                "name_der_anlage": {
+                    "type": "string"
+                },
+                "ts": {
+                    "type": "integer"
+                }
+            }
+        },
+        "zeitzone": {
+            "type": "object",
+            "properties": {
+                "zeitzone": {
+                    "type": "string"
+                },
+                "ts": {
+                    "type": "integer"
+                }
+            }
+        },
+        "produktionsleistung_W": {
+            "type": "object",
+            "properties": {
+                "produktionsleistung_W": {
+                    "type": "number"
+                },
+                "ts": {
+                    "type": "integer"
+                }
+            }
+        },
+        "verbrauchsleistung_W": {
+            "type": "object",
+            "properties": {
+                "verbrauchsleistung_W": {
+                    "type": "number"
+                },
+                "ts": {
+                    "type": "integer"
+                }
+            }
+        },
+        "netzleistung_W": {
+            "type": "object",
+            "properties": {
+                "netzleistung_W": {
+                    "type": "number"
+                },
+                "ts": {
+                    "type": "integer"
+                }
+            }
+        },
+        "energieleistung_W": {
+            "type": "object",
+            "properties": {
+                "energieleistung_W": {
+                    "type": "number"
+                },
+                "ts": {
+                    "type": "integer"
+                }
+            }
+        },
+        "bezogene_leistung_W": {
+            "type": "object",
+            "properties": {
+                "bezogene_leistung_W": {
+                    "type": "number"
+                },
+                "ts": {
+                    "type": "integer"
+                }
+            }
+        },
+        "leistung_von_batterien_W": {
+            "type": "object",
+            "properties": {
+                "leistung_von_batterien_W": {
+                    "type": "number"
+                },
+                "ts": {
+                    "type": "integer"
+                }
+            }
+        }, "ladeleistung": {
+            "type": "object",
+            "properties": {
+                "ladeleistung": {
+                    "type": "number"
+                },
+                "ts": {
+                    "type": "integer"
+                }
+            }
+        }, "entladeleistung_W": {
+            "type": "object",
+            "properties": {
+                "entladeleistung_W": {
+                    "type": "number"
+                },
+                "ts": {
+                    "type": "integer"
+                }
+            }
+        }, "batterien_SOC_%": {
+            "type": "object",
+            "properties": {
+                "batterien_SOC_%": {
+                    "type": "number"
+                },
+                "ts": {
+                    "type": "integer"
+                }
+            }
+        },
+    }
+}
