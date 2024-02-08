@@ -11,7 +11,7 @@
     },
     "tm:optional": [],
     "properties": {
-        "Tägliche Produktion(kWh)": {
+        "Taegliche Produktion(kWh)": {
             "type": "object",
             "properties": {
                 "daily_production": {
@@ -55,7 +55,7 @@
                 }
             }
         },
-        "Name des Geräts": {
+        "Name des Geraets": {
             "type": "object",
             "properties": {
                 "device_name": {
@@ -66,7 +66,7 @@
                 }
             }
         },
-        "Elterngerät": {
+        "Elterngeraet": {
             "type": "object",
             "properties": {
                 "parent_device": {
@@ -77,7 +77,7 @@
                 }
             }
         },
-        "Geräte-SN": {
+        "Geraete-SN": {
             "type": "object",
             "properties": {
                 "parent_device_SN": {
