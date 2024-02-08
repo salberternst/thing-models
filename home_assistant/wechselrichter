@@ -1,0 +1,423 @@
+{
+    "@context": [
+        "https://www.w3.org/2022/wot/td/v1.1"
+    ],
+    "@type": [
+        "tm:ThingModel"
+    ],
+    "title": "Wechselrichter",
+    "version": {
+        "model": "0.0.1"
+    },
+    "tm:optional": [],
+    "properties": {
+        "AC output frequency R(Hz)": {
+            "type": "object",
+            "properties": {
+                "AC output frequency R(Hz)": {
+                    "type": "number"
+                },
+                "ts": {
+                    "type": "integer"
+                }
+            }
+        },
+        "AC-Kühlertemperatur(℃)": {
+            "type": "object",
+            "properties": {
+                "AC-Kühlertemperatur(℃)": {
+                    "type": "number"
+                },
+                "ts": {
+                    "type": "integer"
+                }
+            }
+        },
+        "AC-Spannung 1(V)": {
+            "type": "object",
+            "properties": {
+                "AC-Spannung 1(V)": {
+                    "type": "number"
+                },
+                "ts": {
+                    "type": "integer"
+                }
+            }
+        },
+        "AC-Strom 1(A)": {
+            "type": "object",
+            "properties": {
+                "AC-Strom 1(A)": {
+                    "type": "number"
+                },
+                "ts": {
+                    "type": "integer"
+                }
+            }
+        },
+        "AC-Versionsnummer": {
+            "type": "object",
+            "properties": {
+                "AC-Versionsnummer": {
+                    "type": "string"
+                },
+                "ts": {
+                    "type": "integer"
+                }
+            }
+        },
+        "Anzahl der MPPT-Pfade": {
+            "type": "object",
+            "properties": {
+                "Anzahl der MPPT-Pfade": {
+                    "type": "number"
+                },
+                "ts": {
+                    "type": "integer"
+                }
+            }
+        },
+        "Anzahl der Phasen": {
+            "type": "object",
+            "properties": {
+                "Anzahl der Phasen": {
+                    "type": "string"
+                },
+                "ts": {
+                    "type": "integer"
+                }
+            }
+        },
+        "DC-Leistung PV1(W)": {
+            "type": "object",
+            "properties": {
+                "DC-Leistung PV1(W)": {
+                    "type": "number"
+                },
+                "ts": {
+                    "type": "integer"
+                }
+            }
+        },        "DC-Leistung PV2(W)": {
+            "type": "object",
+            "properties": {
+                "DC-Leistung PV2(W)": {
+                    "type": "number"
+                },
+                "ts": {
+                    "type": "integer"
+                }
+            }
+        },        "DC-Master Firmware-Version": {
+            "type": "object",
+            "properties": {
+                "DC-Master Firmware-Version": {
+                    "type": "string"
+                },
+                "ts": {
+                    "type": "integer"
+                }
+            }
+        },        "DC-Slave Firmware-Version": {
+            "type": "object",
+            "properties": {
+                "DC-Slave Firmware-Version": {
+                    "type": "string"
+                },
+                "ts": {
+                    "type": "integer"
+                }
+            }
+        },        "DC-Spannung PV1(V)": {
+            "type": "object",
+            "properties": {
+                "DC-Spannung PV1(V)": {
+                    "type": "number"
+                },
+                "ts": {
+                    "type": "integer"
+                }
+            }
+        },        "DC-Spannung PV2(V)": {
+            "type": "object",
+            "properties": {
+                "DC-Spannung PV2(V)": {
+                    "type": "number"
+                },
+                "ts": {
+                    "type": "integer"
+                }
+            }
+        },        "DC-Strom PV1(A)": {
+            "type": "object",
+            "properties": {
+                "DC-Strom PV1(A)": {
+                    "type": "number"
+                },
+                "ts": {
+                    "type": "integer"
+                }
+            }
+        },        "DC-Strom PV2(A)": {
+            "type": "object",
+            "properties": {
+                "DC-Strom PV2(A)": {
+                    "type": "number"
+                },
+                "ts": {
+                    "type": "integer"
+                }
+            }
+        },        "Elterngerät": {
+            "type": "object",
+            "properties": {
+                "Elterngerät": {
+                    "type": "string"
+                },
+                "ts": {
+                    "type": "integer"
+                }
+            }
+        },        "Geräte-SN": {
+            "type": "object",
+            "properties": {
+                "Geräte-SN": {
+                    "type": "string"
+                },
+                "ts": {
+                    "type": "integer"
+                }
+            }
+        },        "Gerätetyp": {
+            "type": "object",
+            "properties": {
+                "Gerätetyp": {
+                    "type": "string"
+                },
+                "ts": {
+                    "type": "integer"
+                }
+            }
+        },        "Gesamt-AC-Ausgangsleistung (Aktiv)(W)": {
+            "type": "object",
+            "properties": {
+                "Gesamt-AC-Ausgangsleistung (Aktiv)(W)": {
+                    "type": "number"
+                },
+                "ts": {
+                    "type": "integer"
+                }
+            }
+        },        "Gesamtproduktion (Aktiv)(kWh)": {
+            "type": "object",
+            "properties": {
+                "Gesamtproduktion (Aktiv)(kWh)": {
+                    "type": "number"
+                },
+                "ts": {
+                    "type": "integer"
+                }
+            }
+        },        "Gesamtproduktion 1(kWh)": {
+            "type": "object",
+            "properties": {
+                "Gesamtproduktion 1(kWh)": {
+                    "type": "number"
+                },
+                "ts": {
+                    "type": "integer"
+                }
+            }
+        },        "Gesamtproduktion 2(kWh)": {
+            "type": "object",
+            "properties": {
+                "Gesamtproduktion 2(kWh)": {
+                    "type": "number"
+                },
+                "ts": {
+                    "type": "integer"
+                }
+            }
+        },        "Gesamtproduktion 3(kWh)": {
+            "type": "object",
+            "properties": {
+                "Gesamtproduktion 3(kWh)": {
+                    "type": "number"
+                },
+                "ts": {
+                    "type": "integer"
+                }
+            }
+        },        "Gesamtproduktion 4(kWh)": {
+            "type": "object",
+            "properties": {
+                "Gesamtproduktion 4(kWh)": {
+                    "type": "number"
+                },
+                "ts": {
+                    "type": "integer"
+                }
+            }
+        },        "Hardware-Version": {
+            "type": "object",
+            "properties": {
+                "Hardware-Version": {
+                    "type": "string"
+                },
+                "ts": {
+                    "type": "integer"
+                }
+            }
+        },        "Mikro-Wechselrichter Anschluss 1": {
+            "type": "object",
+            "properties": {
+                "Mikro-Wechselrichter Anschluss 1": {
+                    "type": "string"
+                },
+                "ts": {
+                    "type": "integer"
+                }
+            }
+        },        "Mikro-Wechselrichter Anschluss 2": {
+            "type": "object",
+            "properties": {
+                "Mikro-Wechselrichter Anschluss 2": {
+                    "type": "string"
+                },
+                "ts": {
+                    "type": "integer"
+                }
+            }
+        },        "Mikro-Wechselrichter Anschluss 3": {
+            "type": "object",
+            "properties": {
+                "Mikro-Wechselrichter Anschluss 3": {
+                    "type": "string"
+                },
+                "ts": {
+                    "type": "integer"
+                }
+            }
+        },        "Mikro-Wechselrichter Anschluss 4": {
+            "type": "object",
+            "properties": {
+                "Mikro-Wechselrichter Anschluss 4": {
+                    "type": "string"
+                },
+                "ts": {
+                    "type": "integer"
+                }
+            }
+        },        "Name des Geräts": {
+            "type": "object",
+            "properties": {
+                "Name des Geräts": {
+                    "type": "string"
+                },
+                "ts": {
+                    "type": "integer"
+                }
+            }
+        },        "Nennleistung(W)": {
+            "type": "object",
+            "properties": {
+                "Nennleistung(W)": {
+                    "type": "number"
+                },
+                "ts": {
+                    "type": "integer"
+                }
+            }
+        },        "Netzstatus": {
+            "type": "object",
+            "properties": {
+                "Netzstatus": {
+                    "type": "string"
+                },
+                "ts": {
+                    "type": "integer"
+                }
+            }
+        },        "SN": {
+            "type": "object",
+            "properties": {
+                "SN": {
+                    "type": "string"
+                },
+                "ts": {
+                    "type": "integer"
+                }
+            }
+        },        "System Time": {
+            "type": "object",
+            "properties": {
+                "System Time": {
+                    "type": "string"
+                },
+                "ts": {
+                    "type": "integer"
+                }
+            }
+        },        "Tägliche Produktion (Aktiv)(kWh)": {
+            "type": "object",
+            "properties": {
+                "Tägliche Produktion (Aktiv)(kWh)": {
+                    "type": "number"
+                },
+                "ts": {
+                    "type": "integer"
+                }
+            }
+        },        "Tägliche Produktion 1(kWh)": {
+            "type": "object",
+            "properties": {
+                "Tägliche Produktion 1(kWh)": {
+                    "type": "number"
+                },
+                "ts": {
+                    "type": "integer"
+                }
+            }
+        },        "Tägliche Produktion 2(kWh)": {
+            "type": "object",
+            "properties": {
+                "Tägliche Produktion 2(kWh)": {
+                    "type": "number"
+                },
+                "ts": {
+                    "type": "integer"
+                }
+            }
+        },        "Tägliche Produktion 3(kWh)": {
+            "type": "object",
+            "properties": {
+                "Tägliche Produktion 3(kWh)": {
+                    "type": "number"
+                },
+                "ts": {
+                    "type": "integer"
+                }
+            }
+        },        "Tägliche Produktion 4(kWh)": {
+            "type": "object",
+            "properties": {
+                "Tägliche Produktion 4(kWh)": {
+                    "type": "number"
+                },
+                "ts": {
+                    "type": "integer"
+                }
+            }
+        },        "Version des Kommunikationsprotokolls": {
+            "type": "object",
+            "properties": {
+                "Version des Kommunikationsprotokolls": {
+                    "type": "string"
+                },
+                "ts": {
+                    "type": "integer"
+                }
+            }
+        },
+    }
+}
