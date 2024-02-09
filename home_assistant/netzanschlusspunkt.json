@@ -1,0 +1,59 @@
+{
+    "@context": [
+        "https://www.w3.org/2022/wot/td/v1.1"
+    ],
+    "@type": [
+        "tm:ThingModel"
+    ],
+    "title": "Netzanschlusspunkt",
+    "version": {
+        "model": "0.0.1"
+    },
+    "tm:optional": [],
+    "properties": {
+        "Watt": {
+            "type": "object",
+            "properties": {
+                "Watt": {
+                    "type": "number"
+                },
+                "ts": {
+                    "type": "integer"
+                }
+            }
+        },
+        "L1": {
+            "type": "object",
+            "properties": {
+                "L1": {
+                    "type": "number"
+                },
+                "ts": {
+                    "type": "integer"
+                }
+            }
+        },
+        "L2": {
+            "type": "object",
+            "properties": {
+                "L2": {
+                    "type": "number"
+                },
+                "ts": {
+                    "type": "integer"
+                }
+            }
+        },
+        "L3": {
+            "type": "object",
+            "properties": {
+                "L3": {
+                    "type": "number"
+                },
+                "ts": {
+                    "type": "integer"
+                }
+            }
+        }
+    }
+}
