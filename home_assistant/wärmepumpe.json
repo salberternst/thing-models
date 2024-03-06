@@ -1,0 +1,70 @@
+{
+    "@context": [
+        "https://www.w3.org/2022/wot/td/v1.1"
+    ],
+    "@type": [
+        "tm:ThingModel"
+    ],
+    "title": "Wärmepumpe",
+    "version": {
+        "model": "0.0.1"
+    },
+    "tm:optional": [],
+    "properties": {
+        "Datum": {
+            "type": "object",
+            "properties": {
+                "Datum": {
+                    "type": "string"
+                },
+                "ts": {
+                    "type": "integer"
+                }
+            }
+        },
+        "Uhrzeit": {
+            "type": "object",
+            "properties": {
+                "Uhrzeit": {
+                    "type": "string"
+                },
+                "ts": {
+                    "type": "integer"
+                }
+            }
+        },
+        "einzelne Kunden-Lastprofil Pk(t) in [kW]": {
+            "type": "object",
+            "properties": {
+                "einzelne Kunden-Lastprofil Pk(t) in [kW]": {
+                    "type": "number"
+                },
+                "ts": {
+                    "type": "integer"
+                }
+            }
+        },
+        "einzelne Kunden-Lastprofil Pk(t) in [kWh]": {
+            "type": "object",
+            "properties": {
+                "einzelne Kunden-Lastprofil Pk(t) in [kWh]": {
+                    "type": "number"
+                },
+                "ts": {
+                    "type": "integer"
+                }
+            }
+        },
+        "Stromkosten [€]": {
+            "type": "object",
+            "properties": {
+                "Stromkosten [€]": {
+                    "type": "number"
+                },
+                "ts": {
+                    "type": "integer"
+                }
+            }
+        }
+    }
+}
