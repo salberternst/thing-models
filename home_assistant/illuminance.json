@@ -1,0 +1,27 @@
+{
+    "@context": [
+      "https://www.w3.org/2022/wot/td/v1.1",
+      {
+          "iot": "http://iotschema.org/"
+      }
+    ],
+    "@type": "tm:ThingModel",
+    "title": "Illuminance Sensor",
+    "version": {
+      "model": "0.0.1"
+    },
+    "tm:optional": [],
+    "properties": {
+      "motion": {
+        "type": "object",
+        "properties": {
+          "illuminance": {
+            "type": "string"
+          },
+          "ts": {
+            "type": "integer"
+          }
+        }
+      }
+    }
+}
