@@ -12,7 +12,7 @@
     },
     "tm:optional": [],
     "properties": {
-      "motion": {
+      "illuminance": {
         "type": "object",
         "properties": {
           "illuminance": {
