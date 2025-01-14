@@ -5,7 +5,10 @@
           "iot": "http://iotschema.org/"
       }
     ],
-    "@type": "tm:ThingModel",
+    "@type": [ 
+        "tm:ThingModel",
+        "iot:MotionControl"
+    ],
     "title": "Motion Binary Sensor",
     "version": {
       "model": "0.0.1"
@@ -13,6 +16,7 @@
     "tm:optional": [],
     "properties": {
       "motion": {
+        "@type": "iot:MotionDetected",
         "type": "object",
         "properties": {
           "motion": {
